@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+
+        }
+h4{
+    margin:0;
+    line-height:60px;
+    padding-left: 10px;
+}
+
+
+        nav{
+            height: 60px;
+            background-color:navy;
+            position:fixed;
+            width:100%;
+            top:0;
+            left:0;
+            color:white;
+            z-index:1;
+
+        }
+        .box{
+        margin-top: 10px;
+        width:300px;
+        height: 300px;
+        background-color: green;
+        margin:10px;
+        }
+        .boxes{
+            margin-top: 80px;
+        }
+        .rel-position{
+            position:relative;
+            top:10px;
+
+        }
+        .abs-position{
+            position: absolute;
+            width: 20px;
+            height:20px;
+            background-color:orange;
+            top:20px;
+            right:30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <p>This is nav bar</p>
+    </nav>
+<div class="boxes">
+    <div class="box rel-position">
+<div class="abs-position"></div>
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+     <div class="box">
+
+    </div> <div class="box">
+
+    </div>
+
+</div>
+</body>
+</html>

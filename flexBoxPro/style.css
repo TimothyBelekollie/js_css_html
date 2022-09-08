@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #ecf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.testimonial-grid-container{
+    padding:5% 3%;
+}
+.testimonial-one{
+background-color: #7541c8;
+color:#ffffff;
+position:relative;
+z-index: 0;
+}
+.testimonial-two{
+    background-color:#48556a;
+    color:#ffffff;
+
+
+}
+.testimonial-three{
+background-color: #ffffff;
+color:#48556a
+}
+.testimonial-four{
+background-color: #19212e;
+color:#ffffff;
+}
+.testimonial-five{
+background-color: #ffffff;
+color:#48556a
+}
+.testimonial-one, .testimonial-two, .testimonial-three, .testimonial-four, .testimonial-five{
+    margin-bottom: 20px;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.2);
+font-size:13px;
+}
+.item p{
+opacity:70%;
+}
+.header .name{
+    opacity:100%;
+    font-size:1rem;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.testimonial-five h4{
+    margin-bottom:20px;
+
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 20px;
+    position:relative;
+    z-index:3;
+
+
+} 
+.header img{
+    width: 50px;
+    height: 50px;
+border-radius: 50%;
+margin-right: 10px;
+border:1px solid #7541c8;
+
+}
+.item h4{
+    margin-bottom:20px;
+}
+#quote{
+    width:30px;
+    height: 30px;
+    position:absolute;
+    right: 15%;
+    top:0;
+    z-index:1;
+}
+
+@media(min-width:576px){
+    .testimonial-grid-container{
+        display:flex;
+        max-width: 1200px;
+        margin:0 auto;
+    }
+.main-left{
+    display:flex;
+    flex-direction: column; 
+    flex-basis:80%;
+}
+.main-left .item{
+    margin-right: 15px;
+}
+.testimonial-five{
+    flex-basis:20%;
+}
+.top{
+    display: flex;
+    flex-basis: 50%;
+}
+
+
+.bottom{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.testimonial-one{
+    flex-basis: 65%;
+   
+    }
+    .testimonial-two{
+   flex-basis: 35%;
+    
+    
+    }
+    .testimonial-three{
+        flex-basis: 35%;
+    
+    }
+    .testimonial-four{
+   flex-basis: 65%;
+    }
+
+
+
+}
+
+
+
+
+
+
